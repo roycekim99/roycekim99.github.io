@@ -14,13 +14,15 @@ a:hover {
 .btn-secondary:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
+  background-color: rgba(0, 235, 255, 0.76);
   border: .05rem solid #fff;
   transition: all .3s ease-in-out;
 }
 
 .btn-secondary:hover {
     transform: scale(1.05);
+    background-color: rgba(0, 206, 255, 0.79);
+    color: #0c162e
 }
 
 /*
@@ -98,10 +100,8 @@ body {
 }
 
 #myVideo {
-    max-width: 50%;
     position: fixed;
-    right: 0;
-    bottom: 0;
+    align-items: center;
     min-width: 100%; 
     min-height: 100%;
 }
